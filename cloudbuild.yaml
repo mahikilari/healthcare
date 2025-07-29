@@ -1,5 +1,5 @@
 steps:
-  # Step 1: Install Python dependencies
+  # Step 1:Install Python dependencies
   - name: 'python'
     entrypoint: pip
     args: ["install", "-r", "utils/requirements.txt", "--user"]
