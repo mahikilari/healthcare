@@ -15,7 +15,7 @@ def _create_file_list(directory: str, name_replacement: str) -> tuple[str, list[
     files_to_ignore = ignore_patterns("__init__.py", "*_test.py")
     copytree(directory, f"{temp_dir}/", ignore=files_to_ignore, dirs_exist_ok=True)
     
-    # Ensure only files are returned
+    # Ensure only files are return
     files = [f for f in glob.glob(f"{temp_dir}/**", recursive=True) if os.path.isfile(f)]
     return temp_dir, files
 
