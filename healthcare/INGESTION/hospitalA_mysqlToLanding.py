@@ -4,7 +4,6 @@ from pyspark.sql import SparkSession
 import datetime
 import json
 
-# Initialize GCS & BigQuery Clients
 storage_client = storage.Client()
 bq_client = bigquery.Client()
 
