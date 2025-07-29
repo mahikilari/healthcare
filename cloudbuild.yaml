@@ -18,5 +18,5 @@ options:
 
 substitutions:
   _DAGS_DIRECTORY: "workflows/"
-  _DAGS_BUCKET: "us-east1-gcp-practice-1-464-54e00f6b-bucket" # Replace with your Composer bucket
+  _DAGS_BUCKET: "us-central1-gcp-practice-1--9872ee75-bucket" # Replace with your Composer bucket
   _DATA_DIRECTORY: "data/"
