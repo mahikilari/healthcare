@@ -20,7 +20,7 @@ BRONZE_QUERY = read_sql_file(SQL_FILE_PATH_1)
 SILVER_QUERY = read_sql_file(SQL_FILE_PATH_2)
 GOLD_QUERY = read_sql_file(SQL_FILE_PATH_3)
 
-# Define default arguments
+# Define default argument
 ARGS = {
     "owner": "mahesh",
     "start_date": None,
