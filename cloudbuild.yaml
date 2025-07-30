@@ -19,4 +19,4 @@ options:
 substitutions:
   _DAGS_DIRECTORY: "."  # ✅ DAGs are in root folder
   _DATA_DIRECTORY: "data/"
-  _DAGS_BUCKET: "us-central1-gcp-practice-1--9872ee75-bucket"
+  _DAGS_BUCKET: "us-central1-gcp-practice-1--b8ac77c1-bucket"
